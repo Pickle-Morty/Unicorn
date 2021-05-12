@@ -1,0 +1,21 @@
+.services {
+    background: var(--grey);
+}
+
+.SCard {
+    padding: 75px 0 100px;
+    width: 280px;
+    margin: 0 auto;
+}
+
+.SCard__img {
+    margin-bottom: 28px;
+}
+
+.SCard__title {
+    margin-bottom: 15px;
+}
+
+.SCard__text {
+    line-height: 1.7em;
+}

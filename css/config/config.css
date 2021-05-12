@@ -1,0 +1,103 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{
+	list-style: none;
+	list-style-type: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+/* customize */
+
+a {
+    text-decoration: none; 
+}
+
+.container {
+	max-width: 1190px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+
+
+/* text */
+
+body {
+	font-family: 'Conv_SourceSansPro-Regular';
+	font-size: 16px;
+
+}
+
+h1 {
+	font-family: 'Conv_SourceSansPro-Black';
+	font-size: 72px;
+	line-height: 0.5em;
+}
+
+h2 {
+	font-family: 'Conv_SourceSansPro-Bold';
+	font-size: 27px;
+	line-height: 1.5em;
+	letter-spacing: 0.09em;
+}
+
+h3 {
+	font-family: 'Conv_SourceSansPro-SemiBold';
+	font-size: 18px;
+	line-height: 1.8em;
+}
+
+h4 {
+	font-family: 'Conv_SourceSansPro-Bold';
+
+}
+
+/* root */
+
+:root {
+	--grey: #efefef;
+	--dark: #222222;
+	--light: #eeeeee;
+}

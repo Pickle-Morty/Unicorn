@@ -1,0 +1,18 @@
+.intro {
+    padding: 160px 0 120px;
+    text-align: center;
+}
+
+.intro__title {
+    margin-bottom: 65px;
+}
+
+.intro__text {
+    line-height: 2.1em;
+}
+
+.intro__icon {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}

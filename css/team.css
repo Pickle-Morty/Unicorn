@@ -1,0 +1,23 @@
+.team {
+    padding: 100px 0 135px;
+    text-align: center;
+}
+
+.team__subtitle {
+    margin: 40px 0 40px;
+    line-height: 2em;
+}
+
+
+.tcard {
+    margin: 40px 0 0;
+}
+
+.tcard__title {
+    margin: 45px 0 0;
+}
+
+.tcard__discr {
+    margin: 15px 0 0;
+    font-size: 15px;
+}

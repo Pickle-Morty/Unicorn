@@ -1,0 +1,86 @@
+.page {
+    height: 100vh;
+    width: 100%;
+    background: url('../img/photo/page_bg.png') no-repeat center ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+}
+
+body {
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+
+
+
+.nav-text  {
+    font-family: 'Conv_SourceSansPro-Bold';
+}
+
+.page__content {
+    text-align: right;
+    margin-top: 150px;
+}
+
+.page__line {
+    position: relative;
+    display: block;
+    width: calc(100% - 140px);
+    height: 20px;
+    z-index: 99;
+    margin-bottom: 15px;
+}
+
+.page__line::before {
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 2px;
+    background: black;
+}
+
+
+.page__title {
+    margin-bottom: 40px;
+}
+
+.page__text {
+    font-size: 18px;
+    line-height: 2em;
+    margin-bottom: 42px;
+}
+
+.page__btn {
+    font-size: 18px;
+    line-height: 2em;
+    color: black;
+    display: block;
+    border: 2px solid black;
+    padding: 0 80px;
+    width: 270px;
+    margin-left: auto;
+}
+
+.page__btn:hover {
+    background: black;
+    color: white;
+}
+
+
+
+/*   */
+
+@media (max-width:500px) {
+    .page__title {
+        font-size: 45px;
+    }
+}
