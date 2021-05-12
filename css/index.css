@@ -1,15 +1,4 @@
 @import'./components/bootstrap.min.css';
 @import'./config/config.css';
 @import'./fonts.css';
-@import'./page.css';
-@import'./intro.css';
-@import'./services.css';
-@import'./featured.css';
-@import'./partfolio.css';
-@import'./qout.css';
-@import'./team.css';
-@import'./facts.css';
-@import'./blog.css';
-@import'./tweets.css';
-@import'./footer.css';
-
+@import'./styles.css';
